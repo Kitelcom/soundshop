@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Solde</title>
+    <style>
+        /* barre de navigation de ma page */
+        *{
+    margin: 0;
+    padding: 0;
+}
+body{
+    height: 100%;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    background-color:rgb(35, 0, 0);
+    color: rgb(255, 255, 255);
+    position: sticky;
+    top: 0;
+    height: 90px;
+}
+nav .menus{
+    display: flex;
+    padding-top: 12px;
+    margin-left: 25px;
+    margin: 30px;
+}
+.logo img{
+    color: white;
+}
+.logo{
+    display: flex;
+}
+.logo h1{
+    margin-left: 30px;
+    margin-top: 50px;
+}
+nav .menus li{
+    display: inline-block;
+    list-style: none;
+    padding-left: 10px;
+}
+nav .menus li a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    display: block;
+    margin-left: 10px;
+    font-size: 22px;
+    font-weight: bold;
+}
+        /* ici c'est le footer de la page */
+footer{
+    width: 100%;
+    height: 100px;
+    background-color: rgb(7, 19, 0);
+    margin-top: 30px;
+}
+footer h1{
+    color: white;
+    text-align: center;
+    font-size: 30px;
+   padding-top: 30px;
+}
+footer h1 strong{
+    text-transform: uppercase;
+    color: red;
+}
+    </style>
+</head>
+<body>
+     <!-- ici c'est la barre de navigation  -->
+    <nav>
+        <div class="logo">
+            <img src="Photo/mon logo.png" alt="mon logo">
+            <h1>SoundShop</h1>
+        </div>
+        <ul class="menus">
+            <li><a href="Acceuil.html" class="active">Accueill</a></li>
+            <li><a href="Nouv.html" class="lien2">Nouveautés</a></li>
+            <li><a href="#" class="lien3">Solde</a></li>
+            <li><a href="#"class="fa-duotone fa-solid fa-user-check"></a></li>
+            <li><a href="#"class="fa-solid fa-cart-arrow-down"></a></li>
+        </ul>
+    </nav>
+    <!-- section de ma page -->
+     <section>
+        <form action="">
+            <input type="text">
+        </form>
+     </section>
+     <!-- ici c'est le footer de la page -->
+         <footer>
+            <h1>Copyrigth@2026 <strong>SoundShop </strong>formation en dévéloppenment web/codingmousto@gmail.com</h1>
+         </footer>
+    
+</body>
+</html>
